@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>xavi-om - contacto</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/contacto.css">
+
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <img src="img/xaviom.png" alt="xaviom">
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                <ul>
+                    <li><a href="index.html"> <i class="fas fa-home"></i> Inicio</a>
+                    </li>
+                    <li><a href="nosotros.html"> <i class="fas fa-users"> </i>Nosotros</a></li>
+                    <li><a href="tutoriales.html"><i class="fas fa-laptop"> </i>Tutoriales</a></li>
+                    <li><a href="blog.html">
+                            <i class="fas fa-user-secret"></i>Blog</a></li>
+                    <li class="menu-selected" class="text-menu-selected"><a href="contacto.html"> <i class="fas fa-envelope"></i> Contacto</a></li>
+                </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+
+        <div class="container-cover">
+            <div class="container-info-cover">
+                <h1>Herramienta de Administración</h1>
+                <p>pueden sincronizarse entre distintos dispositivos móviles y sistemas operativos</p>
+            </div>
+        </div>
+
+        <div class="container-content">
+            <article>
+
+                <h1>INFORMACIÓN PROTECCIÓN DE DATOS:</h1>
+
+                <p>Finalidad del formulario: Resolver sus incidencias, contestar a sus solicitudes de información o remitirle información
+                comercial de nuestros productos y servicios.
+                Tiene derecho al acceso, rectificación, oposición, limitación y portabilidad de sus datos, de acuerdo con nuestra política de privacidad.</p>
+                <img src="img/img blog/mallorca.jpg" alt="mallorca">
+
+                        <form method="GET" action="https://postman-echo.com/get" target="_blank" class="form_contact">
+                            <h2>Envia un mensaje</h2>
+                            <div class="user_info">
+                                <label for="names">Nombres *</label>
+                                <input type="text" id="names" name="nombre" required>
+                        
+                                <label for="phone">Telefono / Celular</label>
+                                <input type="text" id="phone" name="telefono">
+                        
+                                <label for="email">Correo electronico *</label>
+                                <input type="text" id="email" name="correo" required>
+                        
+                                <label for="mensaje">Mensaje *</label>
+                                <textarea id="mensaje" name="mensaje" required></textarea>
+                        
+                                <input type="submit" value="Enviar Mensaje" id="btnSend">
+                            </div>
+                        </form>
+
+
+            </article>
+
+            <div class="container-aside">
+
+                <aside>
+                    <img src="img/img6.jpg" alt="">
+                    <h2>¿Qué es Hardware ?</h2>
+                    <p>Agrupa a todos los componentes imprescindibles para el funcionamiento de la PC como motherboard, monitor, teclado
+                        y mouse, siendo la motherboard, la memoria RAM, la memoria ROM y la CPU los componentes más importantes del
+                        conjunto.</p>
+                    <a href="https://www.tecnologia-informatica.com/que-es-hardware-y-software/" target="__blanck"><button>leer
+                            más</button></a>
+                </aside>
+
+                <aside>
+                    <img src="img/img1.jpg" alt="">
+                    <h2>¿Qué es Software?</h2>
+                    <p>Un software de computadora está compuesto por una secuencia de instrucciones, que es interpretada y ejecutada por
+                        un procesador o por una máquina virtual. En un software funcional, esa secuencia sigue estándares específicos
+                        que resultan en un determinado comportamiento.</p>
+                    <a href="https://www.tecnologia-informatica.com/que-es-hardware-y-software/" target="__blanck"><button>leer
+                            más</button></a>
+                
+                </aside>
+
+                <aside>
+                    <img src="img/img4.jpg" alt="">
+                    <h2>Programas Portables</h2>
+                    <p>cuando instalamos un programa en nuestro equipo, también son instalados infinidad de archivos de sistema para su
+                        correcto funcionamiento, como por ejemplo archivos de configuración y librerías de todo tipo. Pero también, y
+                        esto es lo más perjudicial de todo, es que estos programas incluyen rutinas que se cargan aún sin estar en
+                        funcionamiento la aplicación,</p>
+                    <a href="https://www.tecnologia-informatica.com/programas-portables/" target="__blanck"><button>leer
+                            más</button></a>
+                </aside>
+
+
+            </div>
+        </div>
+
+        <div class="container-footer">
+
+    <footer>
+        <div class="logo-footer">
+            <img src="img/pc.png" alt="">
+        </div>
+    
+        <div class="redes-footer">
+            <a href="https://es-es.facebook.com/" target="__blanck"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+            <a href="https://twitter.com/?lang=es" target="__blanck"><i class="fab fa-twitter icon-redes-footer"></i></a>
+            <a href="https://www.youtube.com/" target="__blanck"><i class="fab fa-youtube icon-redes-footer"></i></a>
+            <a href="https://github.com/login" target="__blanck"><i class="fab fa-github icon-redes-footer"></i></a>
+        </div>
+    
+        <hr>
+        <copy class="copy fas fa-copyright"> 2021 xavi-om - Todos los Derechos Reservados</copy>
+    
+    </footer>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/enviar.js"></script>
+</body>
+
+</html>
